@@ -1,0 +1,22 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background: rgb(228, 224, 224);
+
+
+}
+nav{
+list-style: none;
+padding: 0%;
+background-color: rgb(82, 9, 150);
+width: 80%;
+max-width: 1000px;
+margin: auto;
+
+}
+nav {
+
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    display: block;
+}
