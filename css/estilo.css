@@ -1,15 +1,45 @@
 body {
-  font-family: 'Times New Roman', Times, serif;
+  font-family: 'Times New Roman', ;
+  color: black;
   background: rgb(228, 224, 224);
 
 
+
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+}
+.vision {
+  width: 150 px;
+  padding: 70px;
+  background-color: blue;
+}
+.mision {
+  width: 150 px;
+  padding: 70px;
+  background-color: brown;
+}
+.icono {
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
+}
+
+.icono2{
+  font-size: 20px;
+  display: flex;
+  justify-content: right;
 }
 nav{
 list-style: none;
-padding: 0%;
-background-color: rgb(82, 9, 150);
-width: 80%;
-max-width: 1000px;
+padding: 2%;
+background-color: rgb(94, 34, 155);
+width: 100%;
+max-width: 1270px;
 margin: auto;
+color: black;
+
+display: block;
 
 }
