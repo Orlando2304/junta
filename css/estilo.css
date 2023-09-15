@@ -6,24 +6,36 @@ body {
 
 
 }
+
+
+a{
+  color: black;
+  font-size: larger;
+}
 .contenedor{
   display: flex;
   justify-content: space-between;
+  
 }
 .vision {
-  width: 150 px;
-  padding: 70px;
+  width: 40%;
+  padding: 50px;
   background-color: blue;
+  border-radius: 20px;
 }
 .mision {
-  width: 150 px;
-  padding: 70px;
-  background-color: brown;
+  width: 40%;
+  padding: 50px;
+  background-color: rgb(201, 94, 6);
+  border-radius: 20px;
+  
 }
 .icono {
   font-size: 20px;
   display: flex;
   justify-content: right;
+  margin-left: 15px;
+   
 }
 
 .icono2{
@@ -31,15 +43,24 @@ body {
   display: flex;
   justify-content: right;
 }
+.encabezado{
+  
+  border-radius: 20px;
+  border-left-color: black;
+}
 nav{
-list-style: none;
+
 padding: 2%;
 background-color: rgb(94, 34, 155);
 width: 100%;
 max-width: 1270px;
 margin: auto;
 color: black;
+border-radius: 20px;
+border-color: black;
+border-spacing: 20px;
+border-width: 3%;
 
-display: block;
+
 
 }
