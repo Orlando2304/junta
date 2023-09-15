@@ -6,11 +6,15 @@ body {
 
 
 }
-
+.imagen1{
+  max-width: 00px;
+  height: 00px;
+}
 
 a{
   color: black;
   font-size: larger;
+  margin-left: 15px;
 }
 .contenedor{
   display: flex;
